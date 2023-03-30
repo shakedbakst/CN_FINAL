@@ -1,0 +1,3 @@
+pydnserver
+requests
+dnslib

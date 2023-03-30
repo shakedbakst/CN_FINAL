@@ -1,0 +1,36 @@
+######### Install python packages:
+# On Windows - install pip
+# On Linux:
+sudo apt-get install pip3
+
+# install packages using pip
+pip3 install -r requirements.txt
+
+########### Setup - each on different terminal:
+
+### Run DHCP Server:
+# On Windows - run as administrator:
+python3 my_dhcp_server.py
+# On Linux:
+sudo python3 my_dhcp_server.py
+
+### Run DNS Server:
+# On Windows - run as administrator:
+python3 my_dns_server.py
+# On Linux:
+sudo python3 my_dns_server.py
+
+### Run App Server:
+# On Windows - run as administrator:
+python3 my_app_server.py
+# On Linux:
+sudo python3 my_app_server.py
+
+########## Execute Client:
+### Run App client:
+# On Windows - run as administrator:
+python3 my_app_client.py RUDP
+python3 my_app_client.py TCP
+# On Linux:
+sudo python3 my_app_client.py RUDP
+sudo python3 my_app_client.py TCP
